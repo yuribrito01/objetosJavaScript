@@ -3,11 +3,12 @@
 const cliente ={
     nome:"Yuri",
     idade:20,
-    cpf: 123456789
+    cpf: '123456789'
 };
 
 //console.log(cliente);
 
 //melhorando!
 
-console.log(`O nome do cliente é ${cliente.nome}, possui ${cliente.idade} anos e é portador(a) do CPF: ${cliente.cpf}`);
+console.log(`O nome do cliente é ${cliente.nome} e ele possui ${cliente.idade} anos.\n`);
+console.log(`Os 3 primeiros digitos do CPF são: ${cliente.cpf.substring(0,3)}`);
