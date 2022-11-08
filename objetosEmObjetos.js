@@ -19,4 +19,6 @@ cliente.dependente.push({
     idade: 30
 })
 
-console.log(cliente);
+const dependenteMaisNovo = cliente.dependente.filter(dependente => dependente.idade = 20);
+
+console.log(cliente, dependenteMaisNovo[0].nome);
