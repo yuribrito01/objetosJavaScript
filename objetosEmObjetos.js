@@ -22,3 +22,9 @@ cliente.dependente.push({
 const dependenteMaisNovo = cliente.dependente.filter(dependente => dependente.idade = 20);
 
 console.log(cliente, dependenteMaisNovo[0].nome);
+
+let chaves = Object.keys(cliente);
+const valores = Object.values(cliente);
+const tudo = Object.entries(cliente);
+
+console.log(chaves, valores, tudo);
