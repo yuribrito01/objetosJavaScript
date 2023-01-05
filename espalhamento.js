@@ -28,7 +28,7 @@ ligarCliente(...cliente.phone);
 
 const convenio ={
     titular: cliente.nome,
-    ...cliente.dependente
+    ...cliente.dependente[0]
 }
 
 console.log(convenio);
