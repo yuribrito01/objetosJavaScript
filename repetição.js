@@ -24,4 +24,4 @@ for (let chave in cliente){
         continue;
     }
     console.log(`A chave ${chave} tem o valor: ${cliente[chave]}`);
-}
+};
